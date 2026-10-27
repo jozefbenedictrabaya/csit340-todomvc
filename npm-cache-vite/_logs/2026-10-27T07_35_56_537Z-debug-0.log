@@ -1,0 +1,40 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:Z:\L24Y15W08\PREFI\LAB4\.npmrc
+5 silly config load:file:Z:\.npmrc
+6 silly config load:file:C:\Users\L24Y15W08\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm create vite@6 csit340-todomvc --template react
+8 verbose argv "create" "vite@6" "--cache" "./npm-cache-vite" "csit340-todomvc" "--" "--template" "react"
+9 verbose logfile logs-max:10 dir:Z:\L24Y15W08\PREFI\LAB4\npm-cache-vite\_logs\2026-10-27T07_35_56_537Z-
+10 verbose logfile Z:\L24Y15W08\PREFI\LAB4\npm-cache-vite\_logs\2026-10-27T07_35_56_537Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 174ms (cache miss)
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 http fetch GET 200 https://registry.npmjs.org/npm 294ms
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vite@6.5.0
+18 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/create-vite 141ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+21 silly placeDep ROOT create-vite@6.5.0 OK for:  want: 6.5.0
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vite': [ '6.5.0' ] }
+24 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.5.0.tgz 0ms (cache hit)
+25 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.5.0.tgz. Extracting by manifest.
+26 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 186ms
+27 silly audit report {}
+28 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-6.5.0.tgz 1826ms (cache miss)
+29 verbose cwd Z:\L24Y15W08\PREFI\LAB4
+30 verbose os Windows_NT 10.0.26200
+31 verbose node v24.13.0
+32 verbose npm  v11.6.2
+33 notice
+33 notice New [33mminor[39m version of npm available! [33m11.6.2[39m -> [34m11.21.1[39m
+33 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.21.1[39m
+33 notice To update run: [4mnpm install -g npm@11.21.1[24m
+33 notice  { force: true, Symbol(proc-log.meta): true }
+34 verbose exit 0
+35 info ok
